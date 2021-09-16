@@ -1,0 +1,95 @@
+body {
+
+    font-family: "Roboto Mono", monospace;
+    min-height: 100px;
+    background-image: url("./javascript-fundo.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  p {
+      color: blue;
+      font-size: 30px;
+  }
+
+  .page-logo {
+    width: 300px;
+  }
+
+  .alura-logo {
+    width: 55px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  .button {
+    background-color: #ff0000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonAcertou {
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: not-allowed;
+  }
+
+  .buttonErrado {
+    background-color: #00ff00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .resultado {
+    color: blue;
+    text-align: center;
+    margin-top: 16px;
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentalista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mentalista - jogo da adivinhação - desafio aula 3 <br> Imersão Dev Alura</h1>
+    <h2>Jogo da adivinhação para descobrir o número secreto</h2>
+
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" 
+            class="page-logo" alt=""><br>
+            <p class="page-subtitle">
+                Escolha um número de 0 a 10.<br>
+                <h2 id="tentativas" class="page-subtitle">Atenção!! Você tem 3 tentativas</h2>
+           </p>
+
+           <button class="button" id="btn1" onclick="btclick(1)">1</button>
+           <button class="button" id="btn2" onclick="btclick(2)">2</button>
+           <button class="button" id="btn3" onclick="btclick(3)">3</button>
+           <button class="button" id="btn4" onclick="btclick(4)">4</button>
+           <button class="button" id="btn5" onclick="btclick(5)">5</button>
+           <br><br>
+
+           <button class="button" id="btn6" onclick="btclick(6)">6</button>
+           <button class="button" id="btn7" onclick="btclick(7)">7</button>
+           <button class="button" id="btn8" onclick="btclick(8)">8</button>
+           <button class="button" id="btn9" onclick="btclick(9)">9</button>
+           <button class="button" id="btn10" onclick="btclick(10)">10</button>
+           <br><br>
+
+           <button class="button" id="btnResetar" onclick="resetJogo()">Reset</button>
+           <h2 class="resultado" id="resultado"></h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src=""index.js></script>
+
+</body>
+</html>
